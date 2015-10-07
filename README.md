@@ -50,3 +50,11 @@ rails g controller todo_app
 
 #### Set Root Route (Optional)
 In config.rb > routes.rb, uncomment line 8 and change "root 'welcome#index'" to "root 'todo_app#index'"
+
+## Testing
+1. Fork and clone this git repository for an existing solution
+2. Run `bundle install` and 'rails g react:install' in the command line
+3. Run `rails s` to start the server
+
+## Contribute
+This is an open-source project. Please feel free to contribute any ideas, changes, or feedback by opening an issue in this repo. I can also be contacted by email at jenniferpoeng@gmail.com.
